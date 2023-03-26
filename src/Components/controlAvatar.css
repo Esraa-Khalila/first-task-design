@@ -1,0 +1,104 @@
+.control-Avatar {
+  position: fixed;
+  left: 27px;
+  width: 320px;
+  top: 5vh;
+  color: rgba(238, 231, 231, 0.795);
+  padding: 16px;
+}
+.icon {
+  font-size: 3rem;
+  border: 1px solid #564774;
+  border-radius: 50%;
+  background-color: #514873;
+  transition: transform 0.1s ease;
+  border: 2px solid #6e2a68;
+}
+.icon:hover {
+  opacity: 0.5;
+  transform: translateX(100%);
+}
+
+.sub-control {
+  border: 2px solid #6e2a68;
+  width: 23%;
+  height: 50%;
+  background-color: #564774;
+  margin-top: 2rem;
+  text-align: center;
+}
+.sub-control img {
+  margin: 2px;
+}
+.sub-control img:hover {
+  opacity: 0.5;
+}
+.eye .image-5 {
+  margin-bottom: -15px;
+}
+.save {
+  margin-top: 1rem;
+}
+.save img:hover {
+  opacity: 0.5;
+}
+
+
+.control-item {
+  position:fixed;
+  left: 140px;
+  border: 2px solid #6e2a68;
+  transform: translateY(100%);
+  animation: down-up 1s ease forwards;
+}
+@keyframes down-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.control-item-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.container-two-control{
+  border: none;
+}
+.control-item-sub{
+  border: 1px solid black;
+  margin-top: 1rem;
+  border: 2px solid #6e2a68;
+  padding: .3rem;
+}
+.control-hair-img{
+  display: grid;
+  grid-template-columns: repeat(3, 65px);
+}
+.control-hair-radio{
+  display: grid;
+  grid-template-columns: repeat(5, 40px);
+}
+.control-brow-img{
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+}
+.control-outfit-img{
+  display: grid;
+  grid-template-columns: repeat(3, 70px);
+}
+.arrow {
+  display: flex;
+}
+
+.back-title {
+  text-decoration: none;
+  color: white;
+  background-color: #514873;
+  border: 2px solid #6e2a68;
+  margin-top: 0.5rem;
+}
