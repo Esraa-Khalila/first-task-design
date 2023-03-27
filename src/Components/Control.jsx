@@ -156,7 +156,7 @@ function Control() {
             </div>
           ) : null}
           <img
-            src="./images/icons/t-shirt.png"
+            src="./images/icons/tshirt.png"
             onClick={() => changeButton("tshirtBtn")}
           />
           <img
